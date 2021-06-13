@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import java.util.ArrayList;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -50,6 +52,8 @@ public class MainActivity extends AppCompatActivity {
                 break;
 
             case R.id.bu8:
+
+
                 cellId = 8;
                 break;
 
@@ -64,13 +68,22 @@ public class MainActivity extends AppCompatActivity {
     int activePlayer = 1;  //1- for first , 2- for second
 
     void playGame(int cellId, Button buSelected) {
+        ArrayList<Integer> player1 = new ArrayList<>(); // hold player 1 data
+        ArrayList<Integer> player2 = new ArrayList<>(); // hold player 2 data
 
         if (activePlayer == 1) {
             buSelected.setText("X");
             buSelected.setBackgroundColor(Color.GREEN);
+            player1.add(cellId);
             activePlayer = 2;
-
         }
+        else if (activePlayer == 2) {
+            buSelected.setText("0");
+            buSelected.setBackgroundColor(Color.BLUE);
+            player2.add(cellId);
+            activePlayer = 1;
+        }
+
     }
 
 }
