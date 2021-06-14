@@ -11,3 +11,6 @@ one of such error is shown above
 
 
 <!--- https://user-images.githubusercontent.com/83058841/121799814-d4d0cf80-cc4b-11eb-81ab-e97133617e8e.png --->
+<H2> Declaration of Winner </H2>
+<img src="https://user-images.githubusercontent.com/83058841/121852983-e8446f00-cd0d-11eb-9ae5-d94e62897304.png" width="200" height="400">
+
