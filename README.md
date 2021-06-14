@@ -8,3 +8,6 @@ Have some fresh mind
 <img src="https://user-images.githubusercontent.com/83058841/121797055-53714100-cc3b-11eb-9695-d291624bbfc9.png" width="200" height="400">
 
 one of such error is shown above
+
+
+<!--- https://user-images.githubusercontent.com/83058841/121799814-d4d0cf80-cc4b-11eb-81ab-e97133617e8e.png --->
